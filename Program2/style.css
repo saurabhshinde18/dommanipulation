@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+body,html{
+    width:100%;
+    height: 100%;
+    background-color: black;
+}
+
+#sks{
+    height: 100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    }
+
+#box{
+    border:1px solid white;
+    height:500px;
+    width: 500px    ;
+    background-color:rgb(251, 86, 86); 
+    border-radius: 40px;
+}
+
+button{
+    border-radius: 40px;
+    font-size:30px;
+    padding:10px;
+    height: fit-content;
+    width: fit-content;
+}
