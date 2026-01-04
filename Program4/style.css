@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+body,html{
+    width:100%;
+    height: 100%;
+    background-color: black;
+}
+
+#sks{
+    height: 100%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    }
+
+#sks img{
+    width:600px;
+    height: 600px;
+    object-fit: cover;
+}
+
+button{
+    border-radius: 30px;
+    font-size:30px;
+    padding:13px;
+    font-size: 35px;
+    color:white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   background-color: rgb(113, 243, 255);
+}
